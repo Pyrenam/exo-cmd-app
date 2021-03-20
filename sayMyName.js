@@ -5,10 +5,9 @@
 //process argv[1]   proj.js(exo-cmd-app sayMyName)
 // process argv[2]  Sofiane
 
-   
+process.argv[2] ='Sofiane' 
+const sayMyName = (name) => {
+  console.log(`My name is ${name} `)
+}
 
-const name = process.argv[2]
-console.log(`My name is ${name}`)
-
-
-
+sayMyName(process.argv[2])
